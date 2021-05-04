@@ -1,0 +1,217 @@
+{
+  "project_info": {
+    "project_number": "153522160166",
+    "firebase_url": "https://inkr-9a954.firebaseio.com",
+    "project_id": "inkr-9a954",
+    "storage_bucket": "inkr-9a954.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153522160166:android:e1ff24415184136e0f1ce7",
+        "android_client_info": {
+          "package_name": "com.inkr.comics"
+        }
+        
+      },
+      "oauth_client": [
+        {
+          "client_id": "153522160166-3jmvmbdg2fafgae1kf2eriomgprg2a50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkr.comics",
+            "certificate_hash": "b357d95857f45e5a366182b73a4e54a47d9fdf43"
+          }
+        },
+        {
+          "client_id": "153522160166-dmfbdtqn6hop3i2qadg3637eoifg2lcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkr.comics",
+            "certificate_hash": "451c89a83c2d50e015163112fb02e61947a5fd49"
+          }
+        },
+        {
+          "client_id": "153522160166-hk1054hr5s13vn60qsss7voo22so7fba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkr.comics",
+            "certificate_hash": "960ef99591260c7f38ca89fb4a1d7099c191c07e"
+          }
+        },
+        {
+          "client_id": "153522160166-djdn82fsgp013kg1gmhf0q3l1rpp6559.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbwT3foVWcLBtCqf3a_Xb92Lg97QqnLw"
+        },
+        {
+          "current_key": "AIzaSyBMGh-FygCumMB1kCz_6vodyjDVM_evIBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153522160166-dglefaost1dc25lcc1fpla01jerrok44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153522160166-74ic3vm3uj6850v9dfq6hjvirkbkej45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nabstudio.inkr.reader"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1897169314674872~1272385423"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153522160166:android:1ec2b76377aea6340f1ce7",
+        "android_client_info": {
+          "package_name": "com.nabstudio.inkr.reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153522160166-mmu9718uqp4m9q4je8q77q991qptrmon.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nabstudio.inkr.reader",
+            "certificate_hash": "960ef99591260c7f38ca89fb4a1d7099c191c07e"
+          }
+        },
+        {
+          "client_id": "153522160166-djdn82fsgp013kg1gmhf0q3l1rpp6559.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbwT3foVWcLBtCqf3a_Xb92Lg97QqnLw"
+        },
+        {
+          "current_key": "AIzaSyBMGh-FygCumMB1kCz_6vodyjDVM_evIBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153522160166-dglefaost1dc25lcc1fpla01jerrok44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153522160166-74ic3vm3uj6850v9dfq6hjvirkbkej45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nabstudio.inkr.reader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153522160166:android:a2388531df2ef066",
+        "android_client_info": {
+          "package_name": "com.notabasement.mangarock.android.lotus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153522160166-lvktooas40qhav3lqds2qf613f7j60a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.notabasement.mangarock.android.lotus",
+            "certificate_hash": "170aff3bdc72c14f3feca6288338d1615c033583"
+          }
+        },
+        {
+          "client_id": "153522160166-djdn82fsgp013kg1gmhf0q3l1rpp6559.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbwT3foVWcLBtCqf3a_Xb92Lg97QqnLw"
+        },
+        {
+          "current_key": "AIzaSyBMGh-FygCumMB1kCz_6vodyjDVM_evIBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153522160166-dglefaost1dc25lcc1fpla01jerrok44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153522160166-74ic3vm3uj6850v9dfq6hjvirkbkej45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nabstudio.inkr.reader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153522160166:android:3ca685172249b4d8",
+        "android_client_info": {
+          "package_name": "com.notabasement.mangarock.android.titan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153522160166-n2d8k1dv7vppi2qmg5h178m08t0tgufm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.notabasement.mangarock.android.titan",
+            "certificate_hash": "170aff3bdc72c14f3feca6288338d1615c033583"
+          }
+        },
+        {
+          "client_id": "153522160166-djdn82fsgp013kg1gmhf0q3l1rpp6559.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbwT3foVWcLBtCqf3a_Xb92Lg97QqnLw"
+        },
+        {
+          "current_key": "AIzaSyBMGh-FygCumMB1kCz_6vodyjDVM_evIBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153522160166-dglefaost1dc25lcc1fpla01jerrok44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153522160166-74ic3vm3uj6850v9dfq6hjvirkbkej45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nabstudio.inkr.reader"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
