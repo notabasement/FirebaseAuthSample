@@ -2,6 +2,7 @@ package com.me.firebaseauthsample.login
 
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -24,12 +25,14 @@ class LoginActivity: AppCompatActivity() {
 
         viewModel.userLoginSuccess.observe(this, {
             it.getContentIfNotHandled()?.run {
-                if (this) {
-                    Toast.makeText(applicationContext, "Login Successful...", Toast.LENGTH_SHORT).show()
-                    onBackPressed()
-                } else {
-                    Toast.makeText(applicationContext, "Login Failed", Toast.LENGTH_SHORT).show()
-                }
+                Toast.makeText(applicationContext, "Login Successful...", Toast.LENGTH_SHORT).show()
+                onBackPressed()
+            }
+        })
+        viewModel.userLoginFailed.observe(this, {
+            it.getContentIfNotHandled()?.run {
+                Log.v("LoginActivity", "Error message $this")
+                Toast.makeText(applicationContext, this, Toast.LENGTH_SHORT).show()
             }
         })
 

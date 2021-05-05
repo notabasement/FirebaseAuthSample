@@ -65,22 +65,18 @@ class UserRepository {
     }
 
     suspend fun signIn(authentication: Authentication): User? {
-        return try {
-            when (authentication) {
-                is Authentication.Email -> signInWithEmail(
-                    authentication.email,
-                    authentication.password
-                )
-                is Authentication.Apple -> {
-                    val obj = authentication.activity
-                    if (obj !is Activity) {
-                        throw Exception("You must pass activity to do authentication")
-                    }
-                    signInWithApple(obj)
+        return when (authentication) {
+            is Authentication.Email -> signInWithEmail(
+                authentication.email,
+                authentication.password
+            )
+            is Authentication.Apple -> {
+                val obj = authentication.activity
+                if (obj !is Activity) {
+                    throw Exception("You must pass activity to do authentication")
                 }
+                signInWithApple(obj)
             }
-        } catch (e: Throwable) {
-            null
         }
     }
 

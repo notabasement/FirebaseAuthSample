@@ -1,6 +1,7 @@
 package com.me.firebaseauthsample.register
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -24,12 +25,14 @@ class RegisterActivity: AppCompatActivity() {
 
         viewModel.userLoginSuccess.observe(this, {
             it.getContentIfNotHandled()?.run {
-                if (this) {
-                    Toast.makeText(applicationContext, "Register Successful...", Toast.LENGTH_SHORT).show()
-                    onBackPressed()
-                } else {
-                    Toast.makeText(applicationContext, "Register Failed", Toast.LENGTH_SHORT).show()
-                }
+                Toast.makeText(applicationContext, "Register Successful...", Toast.LENGTH_SHORT).show()
+                onBackPressed()
+            }
+        })
+        viewModel.userLoginFailed.observe(this, {
+            it.getContentIfNotHandled()?.run {
+                Log.v("RegisterActivity", "Error message $this")
+                Toast.makeText(applicationContext, this, Toast.LENGTH_SHORT).show()
             }
         })
 
